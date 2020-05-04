@@ -1,8 +1,9 @@
 @echo off
-::Update Site
+:: Update site
 
+git pull
 git add .
-git commit -m "Update my site"
+git commit -m "Update site"
 git push
 
 pause

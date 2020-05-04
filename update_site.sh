@@ -1,5 +1,6 @@
-#！/bin/sh
+#!/bin/sh
 
+git pull
 git add .
-git commit -m "Update my site"
+git commit -m "Update site"
 git push
